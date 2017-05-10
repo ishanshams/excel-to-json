@@ -1,8 +1,8 @@
 var fs = require('fs');
 convertExcel = require('excel-as-json').processFile;
 
-var src = "C:/Users/Ishan/node_modules/excel-as-json/src/jsonExample.xlsx";
-var dest = "C:/Users/Ishan/node_modules/excel-as-json/dest/"
+var src = "C:/Users/Ishan/Documents/GitHub/excel-to-json/excel-as-json/spreadsheet/JSONExample.xlsx";
+var dest = "C:/Users/Ishan/Documents/GitHub/excel-to-json/excel-as-json/destination"
 
 var result = convertExcel(src,undefined,false,function(err,data) {
     if(err){
